@@ -15,6 +15,7 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 
 ## Program:
 
+~~~py
 import numpy as np
 
 from sklearn.model_selection import train_test_split
@@ -67,6 +68,8 @@ experience = np.array([[6.5]])
 predicted_salary = model.predict(experience)
 
 print("\nPredicted Salary for 6.5 years of experience: ₹{:.2f}".format(predicted_salary[0]))
+
+~~~
 
 ## Output:
 
